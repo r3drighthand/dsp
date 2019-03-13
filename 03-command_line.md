@@ -27,15 +27,14 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 ### Q2.  List Files in Unix   
 
 What do the following commands do:  
-`ls`  
-`ls -a`  
-`ls -l`  
-`ls -lh`  
-`ls -lah`  
-`ls -t`  
-`ls -Glp`  
+`ls`        -- List all files in current folder
+`ls -a`     -- List all files in current folder, including binaries & hidden folders
+`ls -l`     -- List all files in current folder, along with file types, sizes & date last modified
+`ls -lh`    -- List all files in current folder, along with file types, sizes & date last modified, in human-readable format
+`ls -lah`   -- List all files in current folder, including binaries & hidden folders, along with file types, sizes & date last modified, in human-readable format
+`ls -t`     -- List all files in current folder, sorted by date/time last modified
+`ls -Glp`   -- My best guess is that is does all of the above, displayed in human-readable format
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
 
 ---
 
@@ -43,7 +42,7 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+-a -f -p -R -1
 
 ---
 
@@ -51,7 +50,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+It converts input from standard input into arguments to a command.
 
  
 
